@@ -2,8 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String sorciers[]={"Iris","Corentin","Violaine","Nathan","Clem"};
-        String monstres[]={"Vaxou","PEM","Hennaff","Zanni","Bonfante"};
+        String sorciers[]={"Iris","Corentin","Noemie","Nathan","Clem"};
+        String monstres[]={"Vaxou","PEM","Henaff","Zanni","Bonfante"};
         Personnage s[]= new Personnage[10];
         for (int i=0;i<sorciers.length;i++) {
             s[i] = new Sorcier(sorciers[i], Math.round(Math.random() * 100), Math.random());
